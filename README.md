@@ -16,7 +16,7 @@ to install the app using nodejs and git installed in the machine:
 
 ``` bash
 # install from github
-git clone https://github.com/OliverAssad/overlapped-intervals.git
+git clone https://github.com/OliverAssad/merged-intervals.git
 cd overlapped-intervals/
 
 # install the app 
