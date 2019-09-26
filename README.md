@@ -1,6 +1,6 @@
 # MERGE INTERVALS HURDLE
 
-this is a simple console `nodejs app` that takes an array of intervals and merges the overlapped onces into single intervals. For example the following intercals **[1,2],[2,3]** should result in **[1,3]** and if the input includes other intervals which are not overlapping it should be added without changes. (i.e. **[1,2],[2,3],[7,8]** result in **[1,4],[7,8]**).
+this is a simple console `nodejs` app that takes an array of intervals and merges the overlapped ones into single intervals. For example the following intercals **[1,2],[2,3]** should result in **[1,3]** and if the input includes other intervals which are not overlapping it should be added without changes. (i.e. **[1,2],[2,3],[7,8]** result in **[1,4],[7,8]**).
 
 
 ## Prerequirements 
