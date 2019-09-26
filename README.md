@@ -94,3 +94,27 @@ the utility is also provided with and extra help using the flags `-h | --help` e
 ## TESTING 
 the application had been tested throughly using `mochajs`. to run the the tests using `nodejs`  navigate to the application root and run `npm test`
 
+## MEMORY USAGE AND DEBUGING
+the utility had been provided with the flag `--usage | -u ` to display a full usage of the memory. As well there is the flag `-s | --sort` that displays the sorted output before it gets merged for further diagnoses. 
+
+``` bash
+overlap m [1,2],[4,5],[2,9],[23,30] -s -u
+# OR 
+overlap m [1,2],[4,5],[2,9],[23,30] --usage 
+
+# OUTPUT 
+# the sorted input is: [ [ 1, 2 ], [ 2, 9 ], [ 4, 5 ], [ 23, 30 ] ]
+# for the input: [ [ 1, 2 ], [ 4, 5 ], [ 2, 9 ], [ 23, 30 ] ]
+#
+#
+# Overlaps intervals had been merged to: [ [ 1, 9 ], [ 23, 30 ] ]
+#
+#
+# MEMORY USAGE STATS
+# rss 18.39 MB
+# heapTotal 5.39 MB
+# heapUsed 3.03 MB
+# external 0.85 MB
+# ------------------------------------
+```
+
